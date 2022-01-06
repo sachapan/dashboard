@@ -2,8 +2,8 @@
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
 
-title: "dashboard"
-subtitle: "Panasuik household"
+title: "Panasuik dashboard"
+#subtitle: "Panasuik household"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
@@ -61,7 +61,7 @@ links:
 #    url: "https://www.wikipedia.org/"
   # this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
   # see url field and assets/additionnal-page.yml.dist used in this example:
-  - name: "another page!"
+  - name: ""
     icon: "fas fa-file-alt"
     url: "#additionnal-page" 
 
@@ -97,10 +97,10 @@ services:
       - name: "Grafana"
         logo: "assets/icons/grafana-icon.png"
         url: "http://razor:3000"
-      - name: "Portainer on hawk"
+      - name: "hawk"
         logo: "assets/icons/portainer-icon.png"
         url: "http://hawk:9000"
-      - name: "Portainer on razor"
+      - name: "razor"
         logo: "assets/icons/portainer-icon.png"
         url: "http://razor:9000"
   - name: "Discreet Infrastructure"
