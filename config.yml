@@ -72,13 +72,13 @@ services:
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
-      - name: "SickChill"
-        logo: "assets/icons/sickchill-icon.png"
-        url: "http://hawk:8081"
-        # target: "_blank" # optional html a tag target attribute
+       # target: "_blank" # optional html a tag target attribute
       - name: "Home Assistant"
         logo: "assets/icons/homeassistant-icon.png"
         url: "http://razor:8123/dash-one/default_view"
+      - name: "SickChill"
+        logo: "assets/icons/sickchill-icon.png"
+        url: "http://hawk:8081"
       - name: "Transmission"
         logo: "assets/icons/Transmission_icon.png"
         url: "http://hawk:9091"
