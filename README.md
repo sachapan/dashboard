@@ -1,5 +1,5 @@
 # dashboard
 
-This is the configuration for the [Homer dashboard](https://github.com/bastienwirtz/homer).
+This is my personal configuration for the [Homer dashboard](https://github.com/bastienwirtz/homer).
 
 
