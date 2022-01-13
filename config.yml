@@ -1,16 +1,12 @@
 ---
-# Homepage configuration
-# See https://fontawesome.com/icons for icons options
 
 title: "Panasuik dashboard"
-#subtitle: "Panasuik household"
-logo: "logo.png"
+# logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
-
-#header: true
-#footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+logo: "assets/icons/dashboard-icon-2.png"
+# header: true
+# footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
 footer: false
-# Optional theme customization
 theme: default
 colors:
   light:
@@ -26,7 +22,7 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.1)
     link: "#3273dc"
     link-hover: "#363636"
-    background-image: ""
+    background-image: "assets/tools/snow_cave.png"
   dark:
     highlight-primary: "#3367d6"
     highlight-secondary: "#4285f4"
@@ -43,12 +39,12 @@ colors:
     background-image: "assets/tools/snow_cave.png"
 
 # Optional message
-#message:
-  #url: https://b4bz.io
+# message:
+  # url: https://b4bz.io
 #  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  #title: "Demo !"
+  # title: "Demo !"
 #  icon: "fa fa-grin"
-  #content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
+  # content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
 #  content: "This is the beginning of the dashboard revolution."
 
 # Optional navbar
@@ -61,8 +57,8 @@ links:
 #  - name: "Wiki"
 #    icon: "fas fa-book"
 #    url: "https://www.wikipedia.org/"
-  # this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
-  # see url field and assets/additionnal-page.yml.dist used in this example:
+# this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
+# see url field and assets/additionnal-page.yml.dist used in this example:
   - name: ""
     icon: "fas fa-file-alt"
     url: "#additionnal-page" 
@@ -111,12 +107,12 @@ services:
   - name: "Docker and friends"
     icon: "fab fa-docker"
     items:
-     - name: "hawk"
-       logo: "assets/icons/portainer-icon.png"
-       url: "http://hawk:9000"
-     - name: "razor"
-       logo: "assets/icons/portainer-icon.png"
-       url: "http://razor:9000"
+      - name: "hawk"
+        logo: "assets/icons/portainer-icon.png"
+        url: "http://hawk:9000"
+      - name: "razor"
+        logo: "assets/icons/portainer-icon.png"
+        url: "http://razor:9000"
   - name: "Discreet Infrastructure"
     icon: "fas fa-truck-loading"
     items:
