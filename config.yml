@@ -26,6 +26,7 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.1)
     link: "#3273dc"
     link-hover: "#363636"
+    background-image: ""
   dark:
     highlight-primary: "#3367d6"
     highlight-secondary: "#4285f4"
@@ -39,6 +40,7 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link: "#3273dc"
     link-hover: "#ffdd57"
+    background-image: "assets/tools/snow_cave.png"
 
 # Optional message
 #message:
@@ -76,6 +78,9 @@ services:
       - name: "Home Assistant"
         logo: "assets/icons/homeassistant-icon.png"
         url: "http://razor:8123/dash-one/default_view"
+      - name: "Node-RED"
+        logo: "assets/icons/node-red-icon.png"
+        url: "http://razor:1880"
       - name: "SickChill"
         logo: "assets/icons/sickchill-icon.png"
         url: "http://hawk:8081"
@@ -98,8 +103,10 @@ services:
         logo: "assets/icons/grafana-icon.png"
         url: "http://razor:3000"
       - name: "hawk netdata"
+        logo: "assets/icons/netdata-icon.png"
         url: "http://hawk:19999"
       - name: "razor netdata"
+        logo: "assets/icons/netdata-icon.png"
         url: "http://razor:19999"
   - name: "Docker and friends"
     icon: "fab fa-docker"
