@@ -76,6 +76,12 @@ services:
       - name: "Node-RED"
         logo: "assets/icons/node-red-icon.png"
         url: "http://razor:1880"
+      - name: "Asterisk"
+        logo: "assets/icons/asterisk.png"
+        url: "http://hawk"
+  - name: "Media"
+    icon: "fas fa-film-photo"
+    items:
       - name: "SickChill"
         logo: "assets/icons/sickchill-icon.png"
         url: "http://hawk:8081"
@@ -91,9 +97,6 @@ services:
       - name: "Jackett"
         url: "http://bravo:9117"
         logo: "assets/icons/jackett.png"
-      - name: "Asterisk"
-        logo: "assets/icons/asterisk.png"
-        url: "http://hawk"
   - name: "Monitoring"
     logo: "assets/icons/heart-rate.png"
     items:
