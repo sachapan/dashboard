@@ -72,7 +72,7 @@ services:
       # target: "_blank" # optional html a tag target attribute
       - name: "Home Assistant"
         logo: "assets/icons/homeassistant-icon.png"
-        url: "http://razor:8123/dash-one/default_view"
+        url: "http://bravo:8123/dash-one/default_view"
       - name: "Node-RED"
         logo: "assets/icons/node-red-icon.png"
         url: "http://razor:1880"
