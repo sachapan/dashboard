@@ -92,6 +92,9 @@ services:
     #icon: "fas fa-film-photo"
     icon: "fas fa-play"
     items:
+      - name: "Sonarr"
+        logo: "assets/icons/sonarr-icon.png"
+        url: "http://razor:8989"
       - name: "SickChill"
         logo: "assets/icons/sickchill-icon.png"
         url: "http://hawk:8081"
