@@ -73,12 +73,9 @@ services:
       - name: "Home Assistant"
         logo: "assets/icons/homeassistant-icon.png"
         url: "http://bravo:8123/dash-one/default_view"
-<<<<<<< HEAD
       - name: "Zigbee2MQTT"
         logo: "assets/icons/zigbee.png"
         url: "http://bravo:8082"
-=======
->>>>>>> 65b3654eff6c1e1d84e9d798571977230a5813c6
       - name: "Node-RED"
         logo: "assets/icons/node-red-icon.png"
         url: "http://razor:1880"
